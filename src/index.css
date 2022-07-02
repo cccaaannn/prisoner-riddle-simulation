@@ -17,3 +17,16 @@ td {
 	padding: 0.3rem;
 	border: 1px solid black;
 }
+
+table {
+	border-collapse: collapse;
+}
+
+th,
+td {
+	text-align: center;
+}
+
+.batch-table {
+	width: 100%;
+}

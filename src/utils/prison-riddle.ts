@@ -1,11 +1,12 @@
-import { PickResult, PickType, Box, BatchResult } from "../types";
+import { PickResult, PickType, RiddleBox, BatchResult } from "../types";
 import { getRandomArray } from "./array-utils";
+
 
 class PrisonRiddle {
 
     static randomPick(prisonerNumber: number, boxes: number[], maxAttemptCount: number): PickResult {
         const opened: number[] = [];
-        const picks: Box[] = [];
+        const picks: RiddleBox[] = [];
 
         let counter = 0;
         while (counter < maxAttemptCount) {
@@ -30,7 +31,7 @@ class PrisonRiddle {
 
     static loopPick(prisonerNumber: number, boxes: number[], maxAttemptCount: number): PickResult {
         let next: number = prisonerNumber;
-        const picks: Box[] = [];
+        const picks: RiddleBox[] = [];
         for (let i = 0; i < maxAttemptCount; i++) {
             const boxContent: number = boxes[next];
 

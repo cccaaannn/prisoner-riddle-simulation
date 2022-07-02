@@ -1,7 +1,8 @@
-import { Box } from "../types";
+import { RiddleBox } from "../types";
+
 
 interface PickTableType {
-    picks: Box[]
+    picks: RiddleBox[]
 }
 
 function PickTable({ picks }: PickTableType) {
@@ -29,7 +30,7 @@ function PickTable({ picks }: PickTableType) {
 
     return (
         <>
-            {visualizePickTable}
+            {visualizePickTable()}
         </>
     )
 
