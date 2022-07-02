@@ -1,4 +1,4 @@
-export interface Box {
+export interface RiddleBox {
     attempt: number,
     boxNumber: number,
     boxContent: number
@@ -6,7 +6,7 @@ export interface Box {
 
 export interface PickResult {
     status: boolean,
-    picks: Box[]
+    picks: RiddleBox[]
 }
 
 export interface BatchResult {
@@ -16,6 +16,6 @@ export interface BatchResult {
 }
 
 export enum PickType {
-    RANDOM_PICK="RANDOM_PICK",
-    LOOP_PICK="LOOP_PICK"
+    RANDOM_PICK="RANDOM PICK",
+    LOOP_PICK="LOOP PICK"
 }
