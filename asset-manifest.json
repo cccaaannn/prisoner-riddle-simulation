@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/prisoner-riddle-simulation/static/css/main.381abe2d.css",
+    "main.js": "/prisoner-riddle-simulation/static/js/main.4640416b.js",
+    "index.html": "/prisoner-riddle-simulation/index.html",
+    "main.381abe2d.css.map": "/prisoner-riddle-simulation/static/css/main.381abe2d.css.map",
+    "main.4640416b.js.map": "/prisoner-riddle-simulation/static/js/main.4640416b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.381abe2d.css",
+    "static/js/main.4640416b.js"
+  ]
+}
